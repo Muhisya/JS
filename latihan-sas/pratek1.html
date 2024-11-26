@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- CSS Internal -->
+    <style>
+        @font-face {
+            font-family: Galber;
+            src: url(https://befonts.com/galber-font.html);
+        }
+
+      main {
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1 {
+            font-family: 'Galber', sans-serif;
+          font-size: 52px;
+          width: 750px;
+        }
+        p{
+            margin-bottom: 25px;
+            font-size: 22.5px;
+            width: 400px;
+        }
+
+      }
+
+      .btn-hover {
+        width: 200px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        cursor: pointer;
+        height: 55px;
+        text-align: center;
+        border: none;
+        background-size: 300% 100%;
+
+        border-radius: 12.5px;
+        moz-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+      }
+
+      .btn-hover:hover {
+        background-position: 100% 0;
+        moz-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+      }
+
+      .btn-hover:focus {
+        outline: none;
+      }
+
+      .btn-hover.color-4 {
+        background-image: linear-gradient(
+          to right,
+          #fc6076,
+          #ff9a44,
+          #ef9d43,
+          #e75516
+        );
+        box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+      }
+      aside {
+        float: right;
+      }
+    </style>
+
+    <!-- HTML Exo -->
+    <main>
+      <div class="text">
+        <h1>We Design Bespoke Characters for You!</h1>
+        <p>
+          Get Your character designed. We also make cool animations using these
+          characters.
+        </p>
+        <button class="btn-hover color-4">Get Your Character</button>
+      </div>
+      <aside>
+        <img src="./img/foto.png" width="525px" />
+      </aside>
+    </main>
+  </body>
+</html>
