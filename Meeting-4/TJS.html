@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // soal pertama
+      let anaPermen = 30;
+      let permenBudi = 10;
+      let permenAnaSkrng = anaPermen - permenBudi;
+      let permenAnaDikali = permenAnaSkrng * 2;
+      let permemKuadrat = permenAnaDikali ** 2;
+
+      // jawaban 1
+      console.log(
+        `Jumlah permen ana yang dimiliki Sekarang adalah ${permenAnaSkrng}`
+      );
+      // jawaban 2
+      console.log(
+        `Jumlah permen ana adalah ${permenAnaDikali}, setelah diquadratkan adalah ${
+          permenAnaDikali ** 2
+        }`
+      );
+
+      // soal Kedua
+      let kucing1 = "Ali";
+      let kucing2 = "Hasan";
+      let string = kucing1 + " " + kucing2;
+      // Jawaban 1
+      console.log(
+        `nama kucing pertama adalah ${kucing1} dan nama kucing ke 2 adalah ${kucing2}`
+      );
+      // jawaban 2
+      console.log(
+        `penggabungan ke kucing pertama dan kucing ke dua adalah ${string}`
+      );
+
+      // soal ketiga
+      let belalang = "12";
+      let nyamuk = "11";
+      let angsa = 10;
+      let hasilBelalangNyamuk = +belalang + nyamuk;
+      let hasilNyamukAngsa = +nyamuk + angsa;
+
+      // jawaban 1
+      console.log(hasilBelalangNyamuk);
+      // jawaban 2
+      console.log(hasilNyamukAngsa);
+      // jawaban 3
+      console.log(
+        `kenapa hasil pertama ini ${hasilBelalangNyamuk} karena variable belalang adalah masih string and nyamuk juga karena di kasih ("")`
+      );
+      // jawaban 4
+      console.log(
+        `kenapa hasil pertama ini ${hasilNyamukAngsa} karena variable nyamuk dikasih (+) menjadi numerik dan angsa adalah variable numerik karena ity bisa di tambah`
+      );
+
+      // soal keempat
+      let bukuFiksi = 5000;
+      let bukuNonFiksi = 7000;
+      let pena = 2000;
+      let totalBf = bukuFiksi * 5;
+      let totalNbf = bukuNonFiksi * 3;
+      let totalPena = pena * 2;
+      // jawaban 1
+      console.log(
+        `Total semua biaya yang harus dibayar Aisha adalah ${
+          totalBf + totalNbf + totalPena
+        }`
+      );
+
+      // soal kelima
+      let penjumlahan1 = 5 + 3 * 2;
+      let penjumlahan2 = (5 + 3) * 2;
+
+      // jawaban 1
+      console.log(penjumlahan1);
+      // jawaban 2
+      console.log(penjumlahan2);
+      // jawaban 3
+      console.log(
+        `kenapa hasil pertama ini ${penjumlahan1} Karena perkalian didahului daripada tambah`
+      );
+      // jawaban 3
+      console.log(
+        `kenapa hasil pertama ini ${penjumlahan2} Karena yang dikurung di kerjakan dulu setelah itu di kali`
+      );
+
+      // soal keenam
+      let kresek = 4;
+      let kotak = 6;
+      let ember = 5 + (kresek = kotak);
+
+      // jawaban 1
+      console.log(`Nilai isi kresek adalah ${kresek}`);
+      // jawaban 2
+      console.log(`Nilai isi kotak adalah ${kotak}`);
+      // jawaban 3
+      console.log(`Nilai isi ember adalah ${ember}`);
+      // jawaban 4
+      console.log(
+        `karena nilai kresek di ganti menjadi kotak dan setelah itu akan di tanmbahkan ke nilai si ember`
+      );
+
+      // soal 7
+      let x, y, z;
+      z = 5 + 10 + 15;
+      x = y;
+      y = z;
+
+      // jawaban 1 (skip)
+      // jawaban 2
+      console.log(
+        `nilai x adalah ${z}, nilai y adalah ${y}, dan nilai z adalah ${z}`
+      );
+
+      // soal 8
+      let money = 4;
+      money *= 2;
+      money *= 2;
+
+      console.log(`nilai variable money adalah ${money}`);
+
+      // soal 9
+      let J = 5;
+      J++;
+      let K = 8;
+      K--;
+
+      console.log(`Hasil varible J adalah ${J} dan variable K adalah ${K}`);
+      console.log(
+        `Hasil J ${J} karena ada tanda (++) dan itu termasuk ditambah 1 dan begitu juga seperti K tetapi perbedaannya adalah (--) mengurang 1`
+      );
+
+      // soal 10
+      let room = "hafs";
+      let age = 18;
+      let shoesNumber = "42";
+      let married = false;
+
+      console.log(typeof room);
+      console.log(typeof age);
+      console.log(typeof shoesNumber);
+      console.log(typeof married);
+      
+    </script>
+  </body>
+</html>
