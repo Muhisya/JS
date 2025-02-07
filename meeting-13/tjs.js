@@ -5,12 +5,12 @@ function calculateArea(length, width) {
 
 // Expression Function
 let calculateArea2 = function (length, width) {
-    console.log("Expretion Function");
+    return length * width;
 }
 calculateArea2();
 
 // Arrow Function
 let calculateArea3 = (length, width) => {
-    console.log("Arrow Function");
+    return length * width;
 }
 calculateArea3();
